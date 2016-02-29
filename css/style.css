@@ -1,6 +1,6 @@
 /**
  * Color palette:
- * 
+ *
  *  #558C89
  *  #74AFAD
  *  #D9853B
@@ -8,6 +8,7 @@
  *  source: http://blog.crazyegg.com/2012/07/11/website-color-palettes/
  */
 
+/* Page style */
 #pagecontainer {
     background-color: #f6f6f6;
 }
@@ -29,9 +30,14 @@
     color: #ECECEA;
 }
 
+#scatterPlotCanvas {
+    border: 1px solid #ECECEA;
+}
+
+/* Panel style */
 .dataPanel {
     border-radius: 25px;
-    max-width: 500px;
+    max-width: 800px;
     margin: 20px auto;
     padding: 50px;
     border: solid #74AFAD 5px;
@@ -48,25 +54,26 @@
 }
 
 .basePlot {
-    max-width: 100%;    
+    max-width: 100%;
 }
 
+/* Slider style */
 #lineCutSlider {
     width: 200px;
     margin: 15px auto;
 }
 
-/* Right of handler */
-.ui-widget-content { 
+/* Right of slider handler */
+.ui-widget-content {
     border: 1px solid #ECECEA;
-    background: #ECECEA; 
+    background: #ECECEA;
 }
 
-/* Left of handler */
-.ui-widget-header { 
+/* Left of slider handler */
+.ui-widget-header {
     border: 1px solid #558C89;
     background: #558C89;
-}       
+}
 
 /* Drag'n'drop */
 #csvInput {
